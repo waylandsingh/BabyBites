@@ -3,7 +3,7 @@
 export default function contactpage() {
      // additional stuff here 
      console.log('hey I heard you wanted to get in contact with us?')
-     tabcontent = document.getElementById("tabcontent");
+     let tabcontent = document.getElementById("tabcontent");
      tabcontent.innerHTML='';
  
      const menu = document.createElement("div");

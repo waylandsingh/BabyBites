@@ -3,7 +3,7 @@
 export default function menupage() {
     // additional stuff here 
     console.log('hey welcome to the menu page')
-    tabcontent = document.getElementById("tabcontent");
+    let tabcontent = document.getElementById("tabcontent");
     tabcontent.innerHTML='';
 
     const menu = document.createElement("div");

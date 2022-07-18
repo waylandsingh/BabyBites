@@ -6,6 +6,6 @@ export default function foodpics() {
     imgdiv.id = 'foodpics'
     imgdiv.innerHTML = '<img src = "../src/vampire-food.jpg" />'
 
-    content.appendChild(imgdiv)
+    return imgdiv;
 
 }

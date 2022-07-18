@@ -1,7 +1,9 @@
+import nav from "./nav.js";
+
+
 import mainpage from "./mainpage/mainpage.js";
 import menupage from "./menupage.js";
 import contactpage from "./contactpage.js"
-import nav from "./nav.js";
 import './index.css';
 
 console.log('this is only a test of the public service test');
@@ -14,6 +16,7 @@ nav();
 const tabcontainer = document.createElement("div");
 tabcontainer.id = "tabcontent"
 container.appendChild(tabcontainer);
+mainpage()
 
 const hometab = document.getElementById("home");
 hometab.onclick = mainpage;

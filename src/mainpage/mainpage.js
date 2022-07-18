@@ -1,11 +1,15 @@
 
 import foodpics from "./foodpics.js";
 import copy from "./copy.js";
+import quote from "./quote"
 
 export default function mainpage() {
-    document.getElementById("tabcontent").innerHTML='';
+    let tabcontent = document.getElementById("tabcontent");
+    tabcontent.innerHTML = ''
+
+    tabcontent.appendChild(quote())
     
-    foodpics();
-    copy();
+    tabcontent.appendChild(foodpics())
+    tabcontent.appendChild(copy())
 
 }

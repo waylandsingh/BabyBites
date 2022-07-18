@@ -13,5 +13,5 @@ export default function copy(){
                             - we even do discreet home delivery
                             </p>`
 
-    content.appendChild(pageCopy)
+    return pageCopy;
 }
