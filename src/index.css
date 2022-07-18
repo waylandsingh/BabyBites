@@ -1,1 +1,32 @@
-p {color:red}
+.topnav {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.topnav ul {
+    list-style-type:none;
+    text-align: center;
+}
+
+.topnav ul li {
+    display: inline-block;
+}
+
+.topnav ul li a {
+    color:crimson;
+}
+
+#content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tabcontent {
+    width: 650px;
+    border: solid 1px black ;
+}
+
+#foodpics img{
+    width: 450px;
+}

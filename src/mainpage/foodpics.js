@@ -3,7 +3,8 @@
 export default function foodpics() {
     const content = document.getElementById("tabcontent");
     const imgdiv = document.createElement("div");
-    imgdiv.innerHTML = '<div id="foodpics"><img src = "../src/vampire-food.jpg" /></div>'
+    imgdiv.id = 'foodpics'
+    imgdiv.innerHTML = '<img src = "../src/vampire-food.jpg" />'
 
     content.appendChild(imgdiv)
 
