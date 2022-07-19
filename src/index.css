@@ -16,6 +16,11 @@
     color:crimson;
 }
 
+.topnav ul li a:hover, a:focus {
+    font-size: larger;
+    color:blueviolet;
+}
+
 #content {
     display:flex;
     flex-direction: column;
