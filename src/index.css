@@ -1,3 +1,10 @@
+body {
+    background-image: url(./vampire-food.jpg);
+      background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
 .topnav {
     /* display: flex;
     flex-direction: column; */
@@ -29,14 +36,21 @@
 
 #tabcontent {
     width: 650px;
-    border: solid 1px black ;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+    opacity: 80%;
 }
 
 #foodpics img{
     width: 450px;
+    opacity: 100%;
+}
+
+#copy {
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 #menu {
@@ -65,12 +79,10 @@
 }
 
 #appetizers {
-    border: solid 1px blue;
 
 }
 
 #menu h1 {
-    border: dashed 1px gray;
 }
 
 #contact-tab {

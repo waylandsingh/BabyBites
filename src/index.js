@@ -16,7 +16,7 @@ nav();
 const tabcontainer = document.createElement("div");
 tabcontainer.id = "tabcontent"
 container.appendChild(tabcontainer);
-menupage()
+mainpage()
 
 const hometab = document.getElementById("home");
 hometab.onclick = mainpage;
