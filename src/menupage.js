@@ -9,8 +9,7 @@ export default function menupage() {
     const menu = document.createElement("div");
     menu.innerHTML = `
         <div id="menu">
-            <h1 class="jumbo">Blood 'n' Bites</h1>
-            <div id="appetizers" class="menu-section">
+            <div id="appetizers" class="info-section">
                 <h1 class="menu-title jumbo">smalls</h1>
                 <h1>
                     <b>carpaccio</b> 
@@ -19,7 +18,7 @@ export default function menupage() {
                 </h1>
             </div>
             
-            <div id="mains" class="menu-section">
+            <div id="mains" class="info-section">
                 <h1 class="menu-title jumbo">bigs</h1>
                 <h1>
                     <b>burger</b> 
@@ -29,7 +28,7 @@ export default function menupage() {
 
             </div>
 
-            <div id="drinks" class="menu-section">
+            <div id="drinks" class="info-section">
                 <h1 class="menu-title jumbo">liquids</h1>
                 <h1>
                     <b>shaken</b> 

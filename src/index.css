@@ -48,8 +48,11 @@
     font-size: 48px;
 }
 
-.menu-section {
-    padding: 32px;
+.info-section {
+    padding-left: 32px;
+    padding-right: 32px;
+    width:100%;
+    box-sizing: border-box;
 }
 
 .menu-right {
@@ -59,4 +62,17 @@
 .menu-description {
     font-size:24px;
     color: gray;
+}
+
+#appetizers {
+    border: solid 1px blue;
+
+}
+
+#menu h1 {
+    border: dashed 1px gray;
+}
+
+#contact-tab {
+    width:100%;
 }
