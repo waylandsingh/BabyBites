@@ -1,1 +1,3 @@
 # BabyBites
+
+BabyBites is a lighthearted play on a healthy comfort food spot - for classy, blood-sucking members of the living dead. Don't be afraid, there's plenty to keep everyone occupied, for a time... 
