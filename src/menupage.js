@@ -38,7 +38,7 @@ export default function menupage() {
                 <h1>
                     <b>stirred</b> 
                     <span class="menu-right menu-tag menu-dark-grey menu-round">$13.00</span>
-                    <p class="menu-description">Top-layer plasma from gently centrifuged donors. Clear in color, and full of essentials for healthy living.</p>
+                    <p class="menu-description">Top-layer plasma from gently centrifuged donors. Clear in color, and full of essentials for healthy undeath.</p>
                 </h1>
             </div>
 

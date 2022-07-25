@@ -4,7 +4,7 @@
 
     font-family: 'NothingYouCouldDo';
   
-    src: url('./NothingYouCouldDo-Regular.ttf') format('truetype');
+    src: url('./fonts/NothingYouCouldDo-Regular.ttf') format('truetype');
   
     font-weight: 400;
   
@@ -12,27 +12,29 @@
   
   }
 
+@font-face {
+    font-family: 'CormorantSC';
+    src: url('./fonts/CormorantSC-Regular.ttf');
+}
+
 body {
     background-image: url(./vampire-food.jpg);
       background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-family: "CormorantSC", "sans-serif";
+    font-size: large;
 
 
 }
 
 .topnav {
-
-    border: 1px dashed yellow;
-    /* display: flex;
-    flex-direction: column; */
     width: 650px;
 }
 
 .topnav ul {
     list-style-type:none;
-    padding-left:15%;
-    padding-right:15%;
+    padding: 2% 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,18 +43,28 @@ body {
 }
 
 .topnav ul li {
-    border: solid 1px gray;
+    border: dotted 1px gray;
     border-radius: 12px;
-    padding: 12px;
-    background-color: rgba(0, 0, 0, 0.7);
+    /* padding: 12px; */
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .topnav ul li a {
     color:crimson;
+    font-size: medium;
+    text-decoration: none;
 }
 
-.topnav ul li a:hover, a:focus {
+.topnav ul li h2 {
+    font-size: medium;
+    margin: 0px;
+    padding: 15px;
+}
+
+.topnav ul li h2:hover, h2:focus {
     font-size: larger;
+    /* margin: 1px; */
+    padding: 10px;
     color:blueviolet;
 }
 
@@ -76,9 +88,16 @@ body {
     opacity: 100%;
 }
 
-#mainpage-quote {
+#mainpage-quote h1{
     font-family: 'NothingYouCouldDo', serif;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
 
+#mainpage-quote h2{
+    /* padding-top: 0px;
+    margin-top: 0px; */
+    float: right;
 }
 
 #copy {
